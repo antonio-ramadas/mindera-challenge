@@ -36,3 +36,6 @@ build/*
 
 # Grid directory
 grids/*
+
+# VS Code
+.vscode
