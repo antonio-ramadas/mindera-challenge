@@ -20,7 +20,7 @@ int main(int argc, char* argv[]) {
     if (argc != 1 && argc != 3) {
         cerr << "Usage: " << argv[0] << " <GRID_OPT> <SOLVER_OPT>" << endl;
         cerr << "\t 0 <= GRID_OPT <= 4" << endl;
-        cerr << "\t 0 <= SOLVER_OPT <= 2" << endl;
+        cerr << "\t 0 <= SOLVER_OPT <= 1" << endl;
         return 1;
     }
 
